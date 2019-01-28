@@ -6,6 +6,7 @@ Put the assignmet with the sizeof in gitHub using git
 #include <stdio.h>
 
 int main() {
+
 printf("The size of int is %lu \n",sizeof(int));
 printf("The size of char is %lu \n",sizeof(char));
 printf("The size of long is %lu \n",sizeof(long));
@@ -17,4 +18,5 @@ printf("The size of unsigned long is %lu \n",sizeof(unsigned long));
 printf("The size of int * is %lu \n",sizeof(int *));
 printf("The size of char * is %lu \n",sizeof(char *));
 printf("The size of long * is %lu \n",sizeof(long *));
+
 }
